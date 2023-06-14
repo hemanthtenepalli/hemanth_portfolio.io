@@ -401,6 +401,24 @@
       margin-block-end: 66px;
     }
   }
+  
+/* Add white line after About Me section */
+  #about::after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 40%;
+    transform: translateX(-50%);
+    width: 85%;
+    height: 0.5px;
+    background-color: #fff;
+  }
+  
+
+
+
+  
+  
   .timeline .title-wrapper {
     display: flex;
     align-items: center;
