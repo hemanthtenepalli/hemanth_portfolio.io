@@ -17,6 +17,11 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Software Developer | Single-page developer portfolio</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <header class="header">
@@ -24,7 +29,7 @@
       <div class="wrapper">
         <nav class="header__nav">
           <h2 class="visually-hidden">Navigation</h2>
-          <a href="/" class="header__home">
+          <a href="/" class="header__home ">
             Hemanth T R
             <span class="visually-hidden">(to home page)</span>
           </a>
@@ -74,15 +79,15 @@
             <picture>
               <source
                 media="(min-width: 62.5em)"
-                srcset="images\image-profile-desktop.png"
+                srcset="/images/image-profile-desktop.png"
               />
               <source
                 media="(min-width: 37.5em)"
-                srcset="images/image-profile-tablet.png"
+                srcset="/images/image-profile-tablet.png"
               />
               <img
-                class="hero__image"
-                src="images/image-profile-mobile.png"
+                class="hero__image animate__animated animate__backInLeft"
+                src="/images/image-profile-mobile.png"
                 alt="picture of Hemanth T R"
                 width-="174"
                 height="383"
@@ -90,24 +95,24 @@
             </picture>
             <img
               class="hero__rings"
-              src="images/pattern-rings.svg"
+              src="/images/pattern-rings.svg"
               alt=""
               width="530"
               height="129"
             />
             <img
               class="hero__circle"
-              src="images/pattern-circle.svg"
+              src="/images/pattern-circle.svg"
               alt=""
               width="129"
               height="129"
             />
             <div class="hero__text">
-              <h1 class="hero__headline header-xl">
+              <h1 class="hero__headline header-xl animate__animated animate__backInLeft">
                 Nice to<br />
                 meet you! I'm <span>Hemanth T R</span>.
               </h1>
-              <p class="hero__description">
+              <p class="hero__description animate__animated animate__backInLeft ">
                 "Welcome to my portfolio website! I'm a passionate programmer
                 with a love for creating innovative solutions through code. With
                 a knack for quick learning, I'm always eager to take on new
@@ -119,8 +124,39 @@
             </div>
           </div>
         </div>
-      </section>
 
+  <!-- About Start-->
+  <section data-aos="fade-down">
+    <div class="container" id="about">
+      <h4 class="text-center">About Me</h4>
+      <div class="row">
+        
+        <div class="col-md-8">
+            <p>My name is Hemanth. I am currently pursuing my Bachelor's in Computer Science at Sri Venkateswara Engineering College,Tirupati.Which is Affiliated to JNTU Anantapur.Furthermore, I am a passionate developer and more importantly a technology lover. I love developing tools that involve Cloud Computing, Back-End Development. Every problem humanity faces today has a solution and these areas of Computer Science help me be creative enough to find these solutions. Even though it is appallingly obvious that today's technology has exceeded our humanity, it is equally true that the very same technology that has made life simpler.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li>NAME  : Tenepalli Rangampeta Hemanth</li>
+                        <li>PHONE : +91 6300481069</li>
+                        <li>BIRTHDAY : May 17, 2002</li>
+                        <li>OCCUPATION : Student</li>
+                        <li>LOCATION : Tirupati,Andhra Pradesh,INDIA</li>
+                    </ul>
+                </div>
+                
+        </div>
+        <div class="row">
+            <p>"I'm a passionate programmer with a love for creating innovative solutions through code. With a knack for quick learning, I'm always eager to take on new challenges and expand my skill set. Browse through my projects to see how I've turned my passion into practical and creative solutions."</p>
+        
+          </div>
+
+      </div>  
+    </div>
+</section>
+<!-- About End-->
+
+      </section>
+      <section data-aos="fade-down">
       <section class = "Education">
         <div class="timeline">
           <div class="title-wrapper">
@@ -154,12 +190,12 @@
         </div>
         <img
         class="Education"
-        src="images/pattern-rings.svg"
+        src="/images/pattern-rings.svg"
         alt=""
         width="530"
         height="129"
       />
-
+      <section data-aos="fade-down">
         <div class="timeline">
           <div class="title-wrapper">
             <h4>Experience</h4>
@@ -189,6 +225,7 @@
           </ul>
         </div>
       </section>
+      <section data-aos="fade-down">
       <section class="skills">
         <div class="wrapper skills__wrapper">
         
@@ -237,14 +274,14 @@
       
         <img
           class="skills__rings"
-          src="images/pattern-rings.svg"
+          src="/images/pattern-rings.svg"
           alt=""
           width="530"
           height="129"
         />
       </section>
 
-
+      <section data-aos="fade-down">
       <section class = "Courses">
         <div class="timeline">
           <div class="title-wrapper">
@@ -258,7 +295,7 @@
               </h3>
               <img
                   class="Courses"
-                  src="images/Certificate.png.png"
+                  src="\images\Certificate.png.png"
                   alt="Certificate of IBM Back-End Development"
                   width-="500"
                   height="500"
@@ -268,7 +305,7 @@
             
           </ul>
         </div>
-
+        <section data-aos="fade-down">
       <section class="projects">
         <div class="wrapper projects__wrapper">
           <div class="projects__grid">
@@ -281,11 +318,11 @@
               <picture class="projects__picture">
                 <source
                   media="(min-width: 62.5em)"
-                  srcset="images/thumbnail-project-1-large.webp"
+                  srcset="/images/thumbnail-project-1-large.webp"
                 />
                 <img
                   class="projects__image"
-                  src="images/thumbnail-project-1-small.webp"
+                  src="/images/thumbnail-project-1-small.webp"
                   alt="screenshot of design portfolio website"
                   width-="343"
                   height="253"
@@ -306,11 +343,11 @@
               <picture class="projects__picture">
                 <source
                   media="(min-width: 62.5em)"
-                  srcset="images/music_player.webp"
+                  srcset="/images/music_player.webp"
                 />
                 <img
                   class="projects__image"
-                  src="images/music_player.webp"
+                  src="/images/music_player.webp"
                   alt="screenshot of Music Player"
                   width-="343"
                   height="253"
@@ -331,11 +368,11 @@
               <picture class="projects__picture">
                 <source
                   media="(min-width: 62.5em)"
-                  srcset="images/URL-Shortener.webp"
+                  srcset="/images/URL-Shortener.webp"
                 />
                 <img
                   class="projects__image"
-                  src="images/URL-Shortener.webp"
+                  src="/images/URL-Shortener.webp"
                   alt="screenshot of URL Shortener"
                   width-="343"
                   height="253"
@@ -356,7 +393,7 @@
               <picture class="projects__picture">
                 <source
                   media="(min-width: 62.5em)"
-                  srcset="images/Voice-Assistant.webp"
+                  srcset="/images/Voice-Assistant.webp"
                 />
                 <img
                   class="projects__image"
@@ -381,11 +418,11 @@
               <picture class="projects__picture">
                 <source
                   media="(min-width: 62.5em)"
-                  srcset="images/Language-Translator.webp"
+                  srcset="/images/Language-Translator.webp"
                 />
                 <img
                   class="projects__image"
-                  src="images/Language-Translator.webp"
+                  src="/images/Language-Translator.webp"
                   alt="screenshot of 4-player memory game with circular tiles that have symbols"
                   width-="343"
                   height="253"
@@ -406,11 +443,11 @@
               <picture class="projects__picture">
                 <source
                   media="(min-width: 62.5em)"
-                  srcset="images/thumbnail-project-6-large.webp"
+                  srcset="/images/thumbnail-project-6-large.webp"
                 />
                 <img
                   class="projects__image"
-                  src="images/thumbnail-project-6-small.webp"
+                  src="/images/thumbnail-project-6-small.webp"
                   alt="grid of thumbnails of famous works of art"
                   width-="343"
                   height="253"
@@ -430,7 +467,7 @@
           </div>
         </div>
       </section>
-
+      <section data-aos="fade-down">
       <section id="contact" class="contact bg-less-dark">
         <div class="wrapper contact__wrapper bottom-border">
           <div class="contact__text">
@@ -452,7 +489,7 @@
                 required
               />
               <img
-                src="images/icon-invalid.svg"
+                src="/images/icon-invalid.svg"
                 alt=""
                 class="contact__invalid-icon"
                 width="24"
@@ -469,7 +506,7 @@
                 required
               />
               <img
-                src="images/icon-invalid.svg"
+                src="/images/icon-invalid.svg"
                 alt=""
                 class="contact__invalid-icon"
                 width="24"
@@ -487,7 +524,7 @@
                 required
               ></textarea>
               <img
-                src="images/icon-invalid.svg"
+                src="/images/icon-invalid.svg"
                 alt=""
                 class="contact__invalid-icon"
                 width="24"
@@ -501,7 +538,7 @@
         </div>
         <img
           class="contact__rings"
-          src="images/pattern-rings.svg"
+          src="/images/pattern-rings.svg"
           alt=""
           width="530"
           height="129"
@@ -515,7 +552,7 @@
         <nav class="header__nav">
           <h2 class="visually-hidden">Navigation</h2>
           <a href="/" class="header__home">
-            Hemanth T R
+            tenepallirangampetahemanth@gmail.com
             <span class="visually-hidden">(to home page)</span>
           </a>
           <a href="https://github.com/hemanthtenepalli" class="header__social">
@@ -557,5 +594,15 @@
         </nav>
       </div>
     </footer>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
   </body>
 </html>
